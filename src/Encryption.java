@@ -58,7 +58,7 @@ public class Encryption {
 
         System.out.print("Tekst zakodowany : ");
         for ( int i = 0 ; i < code.length ; i++)
-            System.out.print(code[i]);
+            System.out.print( Integer.toString(code[i], 2)    );
         System.out.println();
 
     }
